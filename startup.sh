@@ -1,5 +1,12 @@
 #!/bin/bash
 
+# Check if Node.js is installed
+if ! command -v node &> /dev/null; then
+    echo "Node.js is not installed. Please make sure to install Node.js before proceeding."
+    echo "Refer to the Node.js website for installation instructions: https://nodejs.org/"
+    exit 1
+fi
+
 # Check if Git is installed
 if ! command -v git &> /dev/null; then
     echo "Git is not installed. Please make sure to install Git before proceeding."
