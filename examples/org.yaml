@@ -10,7 +10,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: tdurkut
+  name: tdurkut # <-- must be updated for the user who will login through GitHub
 spec:
   memberOf: [guests]
 ---

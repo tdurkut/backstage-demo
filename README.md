@@ -1,4 +1,13 @@
-# [Backstage](https://backstage.io)
+# Backstage Demo Project
+
+## Note: Before getting started, please make sure
+- to review the prerequisites mentioned in the [Backstage documentation](https://backstage.io/docs/getting-started/#prerequisites).
+- to setup an example GitHub OAuth application 
+- to update example user entity metadata.name field in the file "[org.yaml](examples/org.yaml)" under examples folder with the user who will login through GitHub
+
+This repository contains a demo project showcasing the integration of Backstage with GitHub OAuth authentication and CI/CD pipelines.
+
+Please refer [startup.sh](startup.sh) script for a quick start or,
 
 To start the app, run:
 
