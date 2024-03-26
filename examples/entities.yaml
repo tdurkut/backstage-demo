@@ -7,6 +7,28 @@ metadata:
 spec:
   owner: guests
 ---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-sample-app
+  description: Sample Nodejs web app
+  labels:
+    system: web-apps
+  tags:
+    - javascript
+    - node
+  links:
+    - url: https://github.com/tdurkut/backstage-sample-app.git
+      title: Backstage Sample App GitHub
+      icon: code
+  annotations:
+    github.com/project-slug: 'tdurkut/backstage-sample-app'
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  lifecycle: experimental
+  owner: guests
+---
 # https://backstage.io/docs/features/software-catalog/descriptor-format#kind-component
 apiVersion: backstage.io/v1alpha1
 kind: Component
